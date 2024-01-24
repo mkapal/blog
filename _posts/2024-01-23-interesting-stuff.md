@@ -2,7 +2,7 @@
 layout: post
 share: true
 title: Interesting stuff
-date: 2024-01-24 16:01:13
+date: 2024-01-24 16:01:13 +0100
 tags: 
 ---
 
