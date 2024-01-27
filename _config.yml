@@ -27,13 +27,12 @@ baseurl: ""
 domain: martinkapal.dev
 url: "https://martinkapal.dev"
 twitter_username: martinkapal
-github_username:  mkapal
+github_username: mkapal
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
