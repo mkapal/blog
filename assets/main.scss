@@ -4,6 +4,30 @@
 
 @import "minima";
 
+body {
+  color: rgb(82, 82, 82);
+}
+
+.post-title {
+  color: rgb(0, 0, 0);
+}
+
 .site-title:hover h1 {
   text-decoration: underline;
+}
+
+.post-content {
+  line-height: 1.75;
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+  }
+}
+
+a:visited {
+  color: #2a7ae2;
 }
