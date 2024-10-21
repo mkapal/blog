@@ -4,8 +4,23 @@
 
 @import "minima";
 
+:root {
+  --body-bg: #EEE2DC;
+  --body-color: #525252;
+}
+  --body-link-color: #AC3B61;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #303C6C;
+    --body-color: #E2E8E4;
+    --body-link-color: #FFCCBB;
+  }
+}
+
 body {
-  color: rgb(82, 82, 82);
+  color: var(--body-color);
+  background-color: var(--body-bg);
 }
 
 .post-title {
