@@ -48,6 +48,8 @@ html {
     --sh-property: #e25a1c;
     --sh-entity: #e25a1c;
   }
+
+  /* dark */
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -78,6 +80,7 @@ html {
     --sh-keyword: #f47067;
     --sh-string: #0fa295;
   }
+  /* dark end */
 
 }
 
