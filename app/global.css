@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  min-width: 360px;
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -75,16 +79,15 @@
     --sh-string: #0fa295;
   }
 
+}
+
+@layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
-}
-
-html {
-  min-width: 360px;
 }
 
 .prose .anchor {
